@@ -1,14 +1,18 @@
 ### Task Canceller for Hornbill
 
-  -taskref string
+  * -taskref ___string___ ----- 
         Single Task Reference (format: TSK###)
-  -instance string
+	
+  * -instance ___string___ ----- 
         The instance to connect to
-  -api string
+	
+  * -api ___string___ ----- 
 	The API Key
-  -listfile string
+	
+  * -listfile ___string___ ----- 
         File name of file containing list of task references - one per line
-  -zone string
+	
+  * -zone ___string___ ----- 
         Override the default Zone the instance sits in (default "eur")
 
 Please find also included __open-tasks-on-cancelled-requests.report.txt__ as a Service Manager Report which identifies all Task IDs of tasks which are not completed/cancelled which are connected to cancelled tasks.
