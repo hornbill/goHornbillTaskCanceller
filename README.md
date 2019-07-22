@@ -21,4 +21,4 @@ Sample:
 
   Hornbill_Task_Canceller -instance=test_instance -api=123...def -listfile=c:\data\tasks.csv
   
-See also [https://wiki.hornbill.com/index.php/Task_Cancelation_Utility our forum entry]
+See also our forum entry: https://wiki.hornbill.com/index.php/Task_Cancelation_Utility
