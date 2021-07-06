@@ -3,7 +3,7 @@ package main
 import apiLib "github.com/hornbill/goApiLib"
 
 const (
-	version = "1.1.0"
+	version = "1.1.1"
 )
 
 var (

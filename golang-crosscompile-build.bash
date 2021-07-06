@@ -12,7 +12,7 @@ version=${versiond//./_}
 version=${version// /}
 versiond=${versiond// /}
 #platforms="darwin/386 darwin/amd64 freebsd/386 freebsd/amd64 freebsd/arm linux/386 linux/amd64 linux/arm windows/386 windows/amd64"
-platforms="windows/386 windows/amd64 linux/386 linux/amd64 linux/arm darwin/386 darwin/amd64"
+platforms="windows/386 windows/amd64 linux/386 linux/amd64 linux/arm darwin/amd64"
 printf " ---- Building Hornbill to Hornbill Request Import $versiond ---- \n"
 rm -rf "release/"
 mkdir release
@@ -43,8 +43,7 @@ do
     #Copy Source to Build Dir
     cp LICENSE.md "builds/$goos/$goarch/LICENSE.md"
     cp README.md "builds/$goos/$goarch/README.md"
-    cp conf.json "builds/$goos/$goarch/conf.json"
-
+    
     printf "Build Zip \n"
     cd "builds/$goos/$goarch/"
     if [ $os == "darwin" ]; then
