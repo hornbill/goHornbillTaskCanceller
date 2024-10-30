@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.0.0 (September 25th, 2024)
+
+Features:
+
+- Added ability to opt between cancel, delete or complete a task - please note that -delete has been removed
+
 ## 1.1.1 (July 6th, 2021)
 
 Change:
